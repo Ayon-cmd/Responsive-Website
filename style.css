@@ -1,0 +1,843 @@
+/* BODY */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.example-class {
+}
+/* HEAder section */
+nav {
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  height: 3.9375rem;
+  font-family: dosis regular;
+  text-transform: uppercase;
+}
+.row {
+  max-width: 1140px;
+  margin-right: 15rem;
+  font-size: 0.75rem;
+}
+.row ul {
+  height: 16px;
+}
+.logo {
+  height: 2rem;
+  margin-top: 1rem;
+  padding-left: 15rem;
+}
+li {
+  display: inline-block;
+  padding: 1.36rem 1.5625rem;
+  cursor: pointer;
+  position: relative;
+}
+.fa {
+  font-size: 1rem;
+  margin-left: 8px;
+  color: hsl(220, 6%, 50%);
+}
+li a {
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+}
+#active {
+  box-shadow: 0rem 0.128rem 0rem red;
+}
+ul li:hover {
+  box-shadow: 0rem 0.12rem 0rem red;
+  background-color: #fff;
+}
+.row ul ul {
+  position: absolute;
+  display: none;
+}
+.row ul ul li {
+  background-color: #ffffff;
+  width: 100%;
+}
+.row ul li:hover ul {
+  display: block;
+  margin-top: 1.62rem;
+  text-align: center;
+  color: red;
+  cursor: pointer;
+}
+.row ul li:hover ul li {
+  box-shadow: none;
+}
+/* main banner section start */
+.banner-section {
+  height: 68rem;
+  background-color: #fff;;
+  position: relative;
+}
+.banner-img {
+  width: 100%;
+}
+.banner-posison-box {
+  height: 16rem;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-8rem);
+  margin-right: 21%;
+  margin-left: 20%;
+  
+}
+.possion-box {
+  display: flex;
+  padding: 2rem;
+  box-shadow:inset -15px 10px 55px #e8e8ea;
+  background-color: #fff;
+  height: 16rem;
+ 
+}
+.possion-box2 {
+  display: flex;
+  padding: 2rem;
+ 
+  background-color: #fff;
+  height: 16rem;
+  
+}
+.possion-box3 {
+  display: flex;
+  padding: 2rem;
+  box-shadow:inset 15px 0px 15px #e8e8ea;
+  background-color: #fff;
+  height: 16rem;
+ 
+}
+.possion-box-m {
+  width:24rem;
+  background-color: #fff;
+}
+.subb-pic {
+  padding: 4rem 0rem;
+}
+
+.subb-paragraph {
+  padding: 4rem 2rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+}
+.view-sub {
+  color: #f00;
+  text-decoration: none;
+  cursor: pointer;
+  
+
+}
+/* END Img SECtion */
+/* Start VIDEO SECTION */
+.video-section {
+  position: relative;
+  height: 70rem;
+}
+.video-paragrapp {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.minites {
+  font-size: 2rem;
+  padding-left: 10rem;
+ color: #e74c3c;  
+ font-weight: bold;
+ padding-top: 3rem;
+}
+.tan-img {
+  padding-left: 4rem
+}
+.super-man  {
+  font-size: 1.5rem;
+  direction: ltr;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.main-video {
+  padding-left: 28rem;
+  height: 45rem;
+  padding-top: 8rem;
+}
+
+.main-video-sub {
+  height: 40rem;
+  width: 70rem;
+  position: relative;
+ z-index: 2;
+}
+.back-site {
+  position: absolute;
+  top: 20rem;
+  left: 25rem;
+  bottom: 0;
+  background-color: #e74c3c;
+  width: 40rem;
+  height: 25rem;
+  transform: translateY(-50, -50);
+  z-index: 1;
+}
+.video-icon {
+  margin-left: 33rem;
+  bottom: auto;
+  transform: translateY(-24rem);
+  position: absolute;
+  z-index: 3;
+}
+.video-icon-para {
+	height: 1.5rem;
+	width: 14rem;
+	padding-left: 1rem;
+	padding-top: .2rem;
+	letter-spacing: .2rem;
+	background-color: #e74c3c;
+	margin-left: 54rem;
+	bottom: auto;
+	transform: translateY(-24rem);
+	position: absolute;
+	z-index: 4;
+	margin-top: 21rem;
+}
+
+/* Discover-section */
+.Discover-section {
+  background-color: #e74c3c;
+  height: 40rem;
+  
+}
+.Discover-para {
+  padding-top: 10rem;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "roboto";
+  font-weight: bold;
+  text-align: center;
+  padding-left: 10rem;
+}
+.button-main {
+  height: 5rem;
+  width: 21rem;
+  margin-top: 4rem;
+  background-color: #ffff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  color: #e74c3c;
+  font-weight: bold;
+  margin-left: 50rem;
+}
+/* Start iconimg-section */
+.iconimg-section {
+  height: 135rem;
+  background-color: #fff;
+}
+.img-main {
+  text-align: center;
+  padding-top: 5rem;
+}
+.first-img {
+  padding-top: 4rem;
+}
+.second-img {
+
+}
+.card1-img {
+  text-align: center;
+}
+.para-row {
+  font-size: 20px;
+}
+.train-row {
+  font-size: 2rem;
+  padding-top: 8rem;
+  margin-left: 62rem;
+}
+.ring-img {
+ 
+}
+.smart-section {
+  padding-left: 20rem;
+  margin-top: 5rem;
+}
+.smart-collection {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  font-size: 1.5rem;
+}
+hr {
+  width: 70%;
+  margin-left: 23rem;
+  margin-top: 2rem;
+  color: #ffffff;
+}
+.smart-icon {
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  height: 2rem;
+}
+.smart-para {
+  margin-top: 0.5rem;
+  margin-right: 25rem;
+  font-size: 1.5rem;
+}
+.smart-para2 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+.smart-para3 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  padding-right: 4rem;
+}
+/* ---------- Body Fitness Section-----------  */
+.body-section {
+  height: 95rem;
+  background: #e74c3c;
+  color: #ffffff;
+}
+h1 {
+  font-size: 6.8rem;
+  padding-top: 8rem;
+}
+.body-para {
+  text-align: center;
+  padding-top: 10rem;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  padding-left: 7rem;
+}
+.body-use {
+  display: flex;
+  justify-content: center;
+  padding: 28px;
+  box-shadow: -0.14px -8px 8px #db4435,
+    0.14px 8px 8px #db4435;
+  width: 68%;
+  align-items: center;
+  margin-left: 22rem;
+  margin-top: 8rem;
+}
+.body-use a {
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 6rem;
+}
+.btn-btn1 {
+  width: 516px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 33px 9px;
+  color: #fff;
+  /* padding: 0px 49px; */
+}
+.btn-btn2 {
+  color: #000000;
+  width: 681px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-left: 1px solid #c94334;
+  padding: 33px 89px;
+}
+.btn-btn3 {
+  width: 531px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-left: 1px solid #c94334;
+  padding: 33px 84px;
+  color: #fff;
+}
+.body-paras {
+  padding-left: 21rem;
+  margin-top: 10rem;
+  font-size: 1.5rem;
+}
+/* Start rule-section */
+.rule-section {
+  height: 37rem;
+
+  padding-top: 10rem;
+}
+.paragraph-rule {
+  padding-left: 53rem;
+  color: #000000;
+}
+.paragraph-rule a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+}
+.paragraph-rule span {
+  color: red;
+}
+.paragraph-rule p {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+/* -- start Rule section 2 -- */
+.rule-section2 {
+  height: 37rem;
+  padding-top: 10rem;
+  background-color: #000000;
+  padding-left: 18rem;
+}
+.paragraph-rule2 {
+  color: #fff;
+}
+.paragraph-rule2 a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+.paragraph-rule2 span {
+  color: red;
+}
+.paragraph-rule2 p {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+/* --START Product Section --*/
+.Product-section {
+  text-align: center;
+  background-color: #f5f5f5;
+  height: 41rem;
+}
+.Product-section h1 {
+  text-transform: uppercase;
+}
+.product-para {
+  font-size: 1.6rem;
+  padding-top: 4rem;
+}
+/* Start Subproduct-section */
+.Subproduct-section {
+  height: 65rem;
+  background-color: #e74c3c;
+}
+.empty-box {
+  display: flex;
+  flex-direction: row;
+}
+.box-icon {
+  width: 22rem;
+  height: 15rem;
+  background-color: #ffff;
+  box-shadow:inset -15px 0px 15px #e8e8ea;
+}
+.red-box {
+  width: 22rem;
+  height: 15rem;
+  background-color: #e74c3c;
+}
+.product-icon {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 15rem;
+  font-size: 1.5rem;
+  margin-top: 17rem;
+  color: #ffff;
+}
+.product-icon2 {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 15rem;
+  font-size: 1.5rem;
+  color: #ffff;
+}
+.product-icon3 {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 15rem;
+  font-size: 1.5rem;
+  color: #ffff;
+}
+.product-icon-para1 {
+  display: flex;
+  margin-right: 1rem;
+  padding: 0px 5px;
+}
+.product-icon-para2 {
+  display: flex;
+  margin-left: 5rem;
+}
+.img-iconpara2 {
+  margin-left: 1rem;
+  padding: 0px 5px;
+}
+.img-iconpara1 {
+  margin-right: 1rem;
+  direction: rtl;
+}
+.circle-icon1 {
+  margin-right: 9rem;
+}
+
+.circle-icon2 {
+  margin-left: 3rem;
+}
+/* -- Start Process-section -- */
+.Process-section {
+  text-align: center;
+  height: 71rem;
+}
+.process-item h1 {
+  text-transform: uppercase;
+}
+.process-item span {
+  color: #e74c3c;
+}
+.process-item p {
+  font-size: 1.5rem;
+  padding: 1rem 31rem;
+  font-size: 1.8rem;
+}
+.man-process {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 8rem;
+  padding-right: 11rem;
+  padding-left: 11rem;
+}
+.program-process p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6b6b6b;
+}
+.program-process h3 {
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.program-process span {
+  color: #c94334;
+}
+.pro-img {
+  border-radius: 50%;
+  background-color: #000000;
+  height: 15rem;
+  width: 15rem;
+}
+/* Start shape-section  */
+.shape-section {
+  height: 35rem;
+  background-color: #e74c3c;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.shape-section p {
+  text-transform: none;
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+h4 {
+  margin-top: 5rem;
+  font-size: 3rem;
+}
+.footer-section {
+  height: 8rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* ----------END Body Fitness Section-----------  */
+/* --------------start Rule section 1 ----------- */
+
+@media only screen and (max-width: 575px) {
+  .banner-posison-box {
+    height: 16rem;
+    display: grid;
+    justify-content: center;
+    
+  }
+  .video-section {
+    
+    margin-top: 17rem;
+  }
+  .super-man {
+    font-size: 1rem;
+    
+  }
+  .tan-img {
+    padding-right: 2rem;
+  }
+  .minites {
+    font-size: 1rem;
+  
+  }
+  .main-video-sub {
+    height: 16rem;
+   
+    padding-right: 1rem;
+    width: 32rem;
+  }
+  .banner-section {
+    height: 43rem;
+  }
+  .video-paragrapp {
+    display: grid;
+  }
+  .tan-img {
+    padding-left: 15rem;
+    margin-top: 5rem;
+  }
+  .back-site {
+    top: 34rem;
+    left: 1rem;
+    bottom: 0;
+    width: 18rem;
+    height: 12rem;
+  }
+  .main-video {
+    padding-left: 2rem;
+    height: 0rem;
+    padding-top: 3rem;
+  }
+  .video-icon {
+    margin-left: 12rem;
+    margin-top: 12rem;
+  }
+  .video-section {
+    margin-top: 17rem;
+    height: 54rem;
+  }
+  .Discover-para {
+    padding-top: 5rem;
+    font-size: 1rem;
+    padding-left: 0rem;
+  }
+  .button-main {
+   
+    margin-left: 7rem;
+  }
+  .Discover-section {
+    
+    height: 23rem;
+  }
+  .train-row {
+    font-size: 1rem;
+    padding-top: 4rem;
+    margin-left: 9rem;
+  }
+  .card-img {
+    width: 25rem;
+  }
+  .card2-img{
+    padding-top: 2rem;
+    width: 25rem;
+
+  }
+  .smart-section {
+    padding-left: 6rem;
+    margin-top: 1rem;
+  }
+  .smart-section {
+    padding-left: 0rem;
+    margin-top: 1rem;
+  }
+  .smart-para {
+    margin-top: 0.5rem;
+    margin-right: 0rem;
+    font-size: 1.3rem;
+  }
+  hr {
+    width: 95%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    color: #ffffff;
+  }
+  .smart-para2 {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .smart-para3 {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    padding-right: 0rem;
+  }
+  .iconimg-section {
+    height: 102rem;
+    
+  }
+  .body-para {
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-left: 0rem;
+  }
+  .body-para h1 {
+    font-size: 3.8rem;
+    padding-top: 5rem;
+  }
+  .body-use {
+    width: 89%;
+    margin-left: 2rem;
+    margin-top: 8rem;
+  }
+  .body-use a {
+    padding: 1rem;
+    
+  }
+  .body-paras {
+    padding-left: 2rem;
+    font-size: 0.9rem;
+    margin-top: 4rem;
+    
+  }
+  .paragraph-rule {
+    padding-left: 8rem;
+    
+  }
+  .body-section {
+    height: 67rem;
+  }
+  /* Rule section  */
+  .paragraph-rule {
+    padding-left: 3rem;
+  }
+  .paragraph-rule p {
+    
+    font-size: 1rem;
+  }
+  .paragraph-rule a {
+    font-size: 2rem;
+    padding-left: 2rem;
+  }
+  .rule-section {
+    height: 22rem;
+    padding-top: 5rem;
+  }
+  .rule-section2 {
+    padding-top: 5rem;
+    padding-left: 1rem;
+  }
+  .paragraph-rule2 p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  .paragraph-rule2 a {
+    font-size: 2rem;
+    height: 29rem;
+    
+  }
+  .rule-section2 {
+    height: 22rem;
+    padding-top: 10rem;
+    background-color: #000000;
+    padding-left: 1rem;
+  }
+  .Product-section h1 {
+    font-size: 2.8rem;
+    padding-top: 3rem;
+  }
+  .product-para {
+    font-size: .7rem;
+   
+  }
+  .Product-section {
+    height: 17rem;
+  }
+  .box-icon {
+    height: 5rem;
+  }
+
+
+
+  .product-icon {
+  
+    font-size: 1.5rem;
+    margin-top: 0rem;
+  }
+  .product-icon {
+ 
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+    margin-top: 0rem;
+   
+  }
+  .product-icon-para2 {
+   
+    margin-left: 0rem;
+  }
+  .product-icon-para1 {
+    margin-right: 0rem 0.5rem;
+  }
+  .circle-icon2 {
+    margin-left: 0rem;
+  }
+  .product-icon3 {
+    padding: 2rem 0.5rem;
+  }
+  .product-icon2 {
+    
+    padding:0rem 0.5rem;
+    
+  }
+  .process-item h1 {
+    font-size: 1.8rem;
+    padding-top: 4rem;
+  }
+  .circle-icon1 {
+	margin-right: 0rem;
+  }
+.Subproduct-section {
+	height: 57rem;
+
+}
+  .process-item p {
+    padding: 2rem 2rem;
+  }
+  .man-process {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 4rem;
+    padding-right: 0rem;
+    padding-left: 1rem;
+  }
+  .Process-section {
+    height: 50rem;
+  }
+  .pro-img  {
+    height: 7rem;
+    width: 9rem;
+  }
+  .program-process h3 {
+    font-size: 1rem;
+   
+  }
+  .shape-section h1 {
+    font-size: 2.8rem;
+    padding-top: 4rem;
+  }
+  .shape-section p {
+    font-size: 1rem;
+  }
+  .shape-section {
+    height: 25rem;
+  }
+  .footer-section li {
+    margin-top: 2rem;
+    padding: .5rem;
+  }
+}
